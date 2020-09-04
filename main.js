@@ -9,6 +9,7 @@ var score = 0;
 //-------------------------------------
 function setup(){
 	createCanvas(700, 450);
+	scaleToFit: true;
 	textSize(30);
 	dino = new Dinozaur();
 	bg = new Bg();
